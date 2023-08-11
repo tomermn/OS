@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/Dell/Documents/academy/os-67808/ex2/uthreads.cpp
+uthreads.h
+/mnt/c/Users/Dell/Documents/academy/os-67808/ex2/uthreads.h
+set
+-
+unordered_map
+-
+list
+-
+vector
+-
+csignal
+-
+sys/time.h
+-
+csetjmp
+-
+cstdlib
+-
+stdio.h
+-
+iostream
+-
+
+/mnt/c/Users/Dell/Documents/academy/os-67808/ex2/uthreads.h
+
