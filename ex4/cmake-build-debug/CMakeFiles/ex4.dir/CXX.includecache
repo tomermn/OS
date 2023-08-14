@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/Dell/Documents/academy/os-67808/ex4/MemoryConstants.h
+climits
+-
+stdint.h
+-
+
+/mnt/c/Users/Dell/Documents/academy/os-67808/ex4/PhysicalMemory.h
+MemoryConstants.h
+/mnt/c/Users/Dell/Documents/academy/os-67808/ex4/MemoryConstants.h
+random
+-
+memory
+-
+sstream
+-
+
+/mnt/c/Users/Dell/Documents/academy/os-67808/ex4/VirtualMemory.cpp
+VirtualMemory.h
+/mnt/c/Users/Dell/Documents/academy/os-67808/ex4/VirtualMemory.h
+PhysicalMemory.h
+/mnt/c/Users/Dell/Documents/academy/os-67808/ex4/PhysicalMemory.h
+cstdlib
+-
+
+/mnt/c/Users/Dell/Documents/academy/os-67808/ex4/VirtualMemory.h
+PhysicalMemory.h
+/mnt/c/Users/Dell/Documents/academy/os-67808/ex4/PhysicalMemory.h
+
