@@ -1,0 +1,23 @@
+galbah, tomerm1
+Gal Bahary (207297011), Tomer Meidan (314998808)
+EX: 1
+
+FILES:
+osm.cpp -- a file with osm library code.
+MAKEFILE -- 
+graph_ex1.png -- photo of the graph that describes comperation.
+
+REMARKS:
+We made all our tests on CSE computers.
+
+ANSWERS:
+
+Assignment 1:
+the program creates a directory called "welcome_dir_1", inside this directory it creates
+another directory called "welcome_dir_2", inside both directories it opens a new text file
+called "welcome_file.txt".
+inside the text file it writes "welcome to OS-2023".
+finally it removes the text file and deletes both directories.
+
+* while doing all these operations the program also handles memory alocations and dealocations,
+ we didnt know if they should be described as well.
